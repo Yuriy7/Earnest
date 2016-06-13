@@ -81,7 +81,7 @@ public class Test1
                else System.out.println(st[s] + " fail");
            }
            wd.navigate().back();
-       }
+       } wd.close();
 
 //        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 //       wd.navigate().back();
